@@ -1,0 +1,22 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": "eslint:recommended",
+	"globals": {
+		"$": false,
+		"globalThis": false,
+		"jQuery": false
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"rules": {
+		"strict": 0,
+		"indent": ["error", "tab"],
+		"semi": ["warn", "always"]
+	}
+}
